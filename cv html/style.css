@@ -1,0 +1,53 @@
+/*div.glowny {
+width: 600px;
+height: 300px;
+margin: 0 auto;
+padding: 0px;
+}
+
+div.lewy {
+width: 300px;
+height: 300px;
+float: left;
+margin: 0px;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700');
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    body {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
+
+
+
+.center {
+		align-content: center;
+	position: relative;
+max-height: 100%;
+max-width: 25vw;
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+	}
+
+
+h1, h2 {
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	
+}
+
+
+	
